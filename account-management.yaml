@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: account-management
+  description: Account Management
+spec:
+  type: business-unit 
+  profile:
+    displayName: Account Management
+  parent: rusbe
