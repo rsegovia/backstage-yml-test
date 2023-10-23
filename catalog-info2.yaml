@@ -12,8 +12,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: alquimistas
-  ownedBy: account-management
+  owner: account-management  
   definition: |
     openapi: 3.0.0
       info:
