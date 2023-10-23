@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Worker
+metadata:
+  name: csf-api-accountmanagement-extrato
+  description: Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
+  annotations:
+    sonarqube.org/project-key: csf-api-accountmanagement-extrato
+  links:
+    - url: https://gitlab.com/bcsf/projetos/conta/nova-conta-digital/alquimistas/backend/csf-api-accountmanagement-extrato
+      title: Gitlab Repo
+      icon: gitlab
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: alquimistas
+  system: account-management
+  definition: |
+    openapi: 3.0.0
+      info:
+        title: CSF.AccountManagement.Extrato.Api
+        description: |-
+          Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
+        version: 1.0.0
+      tags:
+        - name: Statement
+          description: Statement
+      paths:
+        /api/v1/transactional/statement:
+          get:
+            tags:
+              - Statement
+            summary: Statement
+            description: Statement search endpoint
+            responses:
+              '200':
+                description: Successful operation
+              '400':
+                description: Invalid ID 
+              '404':
+                description: not found
+              '405':
+                description: Validation exception
+    
