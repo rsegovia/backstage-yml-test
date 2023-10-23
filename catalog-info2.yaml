@@ -13,13 +13,13 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: alquimistas
-  partof: account-management
+  ownedBy: account-management
   definition: |
     openapi: 3.0.0
       info:
         title: CSF.AccountManagement.Extrato.Api
         description: |-
-          Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
+          Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app...
         version: 1.0.0
       tags:
         - name: Statement
