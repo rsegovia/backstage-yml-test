@@ -7,3 +7,4 @@ spec:
   type: root 
   profile:
     displayName: Account
+  children: [rusbe]
