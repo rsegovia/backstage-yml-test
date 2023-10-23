@@ -18,7 +18,7 @@ spec:
       info:
         title: CSF.AccountManagement.Extrato.Api
         description: |-
-          Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app...
+          Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
         version: 1.0.0
       tags:
         - name: Statement
