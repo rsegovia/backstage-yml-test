@@ -6,6 +6,6 @@ metadata:
 spec:
   type: team 
   profile:
-    displayName: Account
+    displayName: Rusbe
   parent: account
   children: []
