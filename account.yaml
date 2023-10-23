@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: account
+  description: Account Group  
+spec:
+  type: root 
+  profile:
+    displayName: Account
