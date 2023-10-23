@@ -8,3 +8,4 @@ spec:
   profile:
     displayName: Account
   parent: account
+  children: []
