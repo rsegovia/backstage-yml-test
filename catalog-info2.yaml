@@ -5,6 +5,7 @@ metadata:
   description: Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
   annotations:
     sonarqube.org/project-key: csf-api-accountmanagement-extrato
+    custom-criticality: low
   links:
     - url: https://gitlab.com/bcsf/projetos/conta/nova-conta-digital/alquimistas/backend/csf-api-accountmanagement-extrato
       title: Gitlab Repo
