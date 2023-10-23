@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Worker
+kind: API
 metadata:
   name: csf-api-accountmanagement-extrato
   description: Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
