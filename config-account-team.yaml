@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: account
+  description: Account Group  
+spec:
+  type: root 
+  profile:
+    displayName: Account
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rusbe
+  description: Time rusbe
+spec:
+  type: team 
+  profile:
+    displayName: Account
+  parent: account
+
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: account-management
+  description: Account Management
+spec:
+  type: business-unit 
+  profile:
+    displayName: Account Management
+  parent: rusbe
