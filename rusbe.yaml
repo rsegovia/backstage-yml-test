@@ -1,11 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: rusbe
-  description: Time rusbe
+  name: infrastructure
+  description: The infra business unit
 spec:
-  type: team 
+  type: business-unit
   profile:
-    displayName: Account
-  parent: account
-  children: []
+    displayName: Infrastructure
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
