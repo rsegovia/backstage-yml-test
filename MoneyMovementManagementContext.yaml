@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: Money Movement Management
+  name: MoneyMovementManagement
   description: Money Movement Management
 spec:
   owner: Account
