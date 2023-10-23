@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: rusbe
+  description: Time rusbe
+spec:
+  type: team 
+  profile:
+    displayName: Account
+  parent: account
