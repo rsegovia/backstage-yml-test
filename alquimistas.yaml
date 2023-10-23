@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: alquimistas
+  description: Time Alquimistas
+spec:
+  type: team 
+  profile:
+    displayName: Alquimistas
+  parent: account
+  children: []
