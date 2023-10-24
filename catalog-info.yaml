@@ -5,9 +5,7 @@ metadata:
   description: Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
   annotations:
     sonarqube.org/project-key: csf-api-accountmanagement-extrato
-    custom-criticality: low
-  labels:
-    - criticality:low
+    custom-criticality: low  
   tags:
     - criticality-low    
   links:
