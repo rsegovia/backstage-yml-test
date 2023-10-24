@@ -10,6 +10,13 @@ metadata:
     - url: https://gitlab.com/bcsf/projetos/conta/nova-conta-digital/alquimistas/backend/csf-api-accountmanagement-extrato
       title: Gitlab Repo
       icon: gitlab
+relations:
+  type: partOf
+  targetRef: group:default/account-management
+  target: 
+    kind: group
+    namespace: default
+    name: account-management      
 spec:
   type: openapi
   lifecycle: experimental
