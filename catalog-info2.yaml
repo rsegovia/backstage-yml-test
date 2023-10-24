@@ -6,6 +6,8 @@ metadata:
   annotations:
     sonarqube.org/project-key: csf-api-accountmanagement-extrato
     custom-criticality: low
+  labels:
+    - criticality:low
   tags:
     - criticality-low    
   links:
