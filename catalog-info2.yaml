@@ -7,7 +7,7 @@ metadata:
     sonarqube.org/project-key: csf-api-accountmanagement-extrato
     custom-criticality: low
   tags:
-    - criticality-low
+    - criticality-low    
   links:
     - url: https://gitlab.com/bcsf/projetos/conta/nova-conta-digital/alquimistas/backend/csf-api-accountmanagement-extrato
       title: Gitlab Repo
