@@ -14,5 +14,5 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: gestao-de-clientes
-  definition: |    
-    $text: ./swagger2.yaml
+  definition:  
+    $text: ./swagger.yaml
