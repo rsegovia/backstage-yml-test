@@ -15,4 +15,4 @@ spec:
   lifecycle: experimental
   owner: gestao-de-clientes
   definition: |    
-    $text: ./swagger.yaml
+    $text: ./swagger2.yaml
