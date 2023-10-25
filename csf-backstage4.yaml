@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: csf-api-accountmanagement-extrato4
+  description: Microsservico que disponibiliza informações transacionais da conta corrente Topaz para o app.
+  annotations:
+    sonarqube.org/project-key: csf-api-accountmanagement-extrato
+    criticality: medium
+  links:
+    - url: https://gitlab.com/bcsf/projetos/conta/nova-conta-digital/alquimistas/backend/csf-api-accountmanagement-extrato
+      title: Gitlab Repo
+      icon: gitlab
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: gestao-de-clientes
+  definition:  
+    $text: ./swagger.yaml
